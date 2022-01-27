@@ -22,6 +22,7 @@
 #' 	rtol = 0.01)
 #' @seealso \code{\link{defPars}}, \code{\link{initState}},
 #'  \code{\link{coralODEs}}, \code{\link{coralODEs.noROS}}
+#'  @import deSolve
 #' @export
 solveCoral <- function(times = c(0,500), pars = defPars(), lambda = 5,
 		       method = "vode", func = coralODEs,
@@ -44,6 +45,7 @@ solveCoral <- function(times = c(0,500), pars = defPars(), lambda = 5,
 #' pars <- coRal::def_pars()
 #' run_coral_ode(time, env, pars)
 #' @seealso \code{\link{initEnv}}
+#' @import deSolve
 #' @export
 run_coral_ode <- function(time, env, pars) {
 	# time is equivalent to times
