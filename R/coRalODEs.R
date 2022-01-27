@@ -22,7 +22,7 @@
 #' 	rtol = 0.01)
 #' @seealso \code{\link{defPars}}, \code{\link{initState}},
 #'  \code{\link{coralODEs}}, \code{\link{coralODEs.noROS}}
-#'  @import deSolve
+#' @import deSolve
 #' @export
 solveCoral <- function(times = c(0,500), pars = defPars(), lambda = 5,
 		       method = "vode", func = coralODEs,
