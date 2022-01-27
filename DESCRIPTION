@@ -8,8 +8,7 @@ Description: The package coRalODEs implements in R an application of
     Pfab et al.'s paper "Timescale separation in models of symbiosis: 
     state space reduction, multiple attractors and initialization". 
 License: MIT + file LICENSE
-Requires: deSolve
-Imports: deSolve
+Depends: deSolve
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
